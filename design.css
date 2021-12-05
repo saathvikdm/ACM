@@ -83,9 +83,13 @@ ul.topnav {
   }
 }
 
+#team-container {
+  margin-top: 100px;
+}
+
 .top-block {
   margin-top: 100px;
-  padding-bottom: 50px !important;
+  padding-bottom: 25px !important;
   background-color: #121212 !important;
 }
 ul.topnav li.logo {
@@ -396,6 +400,11 @@ body {
 
   .top-block {
     margin-top: 75px;
+    margin-bottom: 0;
+  }
+
+  #team-container {
+    margin-top: 0px;
     margin-bottom: 0;
   }
 }
@@ -729,19 +738,20 @@ hr {
   font-size: 16px;
 }
 .team-title {
-  position: static;
-  padding: 20px 0;
+  /* position: static; */
+  padding: 10px 0;
   display: inline-block;
   letter-spacing: 2px;
   width: 100%;
 }
 .team-title h5 {
+  font-size: 1.4rem;
   margin-bottom: 0px;
   display: block;
   text-transform: uppercase;
 }
 .team-title span {
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #a5a5a5;
   letter-spacing: 1px;
@@ -761,10 +771,6 @@ hr {
 }
 
 @media only screen and (max-width: 640px) {
-  .teamBlock h5 {
-    font-size: 1.7vh;
-  }
-
   .aCenter {
     margin: 0px;
   }
@@ -785,6 +791,13 @@ hr {
 
   #teamTwo {
     padding: 10px;
+  }
+
+  .team-title h5 {
+    font-size: 1.3rem;
+  }
+  .team-title span {
+    font-size: 1.05rem;
   }
 }
 
@@ -843,4 +856,8 @@ hr {
 .eventClosed:hover {
   background-color: rgba(255, 0, 0, 0.712);
   text-decoration: none;
+}
+
+.team-card {
+  max-height: 500px;
 }

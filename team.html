@@ -1,655 +1,222 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-	<title>Team | ACM VVCE</title>
-	<link rel="stylesheet" type="text/css" href="design.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Team | ACM VVCE</title>
+    <link rel="stylesheet" type="text/css" href="design.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
-</head>
-<body>
-<button onclick="topFunction()" id="topBtn" title="Go to top"> <i class="fas fa-chevron-up"> </i></button>
-<!-- Navbar Section -->
-<div id="navbar">
-    <ul class="topnav sticky" id="myTopnav">
-        <span class = "opnbtn" style="font-size:30px;cursor:pointer;float: right;" onclick="openNav()">&#9776;</span>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fas fa-chevron-up"> </i>
+    </button>
+    <!-- Navbar Section -->
+    <div id="navbar">
+      <ul class="topnav sticky" id="myTopnav">
+        <span
+          class="opnbtn"
+          style="font-size: 30px; cursor: pointer; float: right"
+          onclick="openNav()"
+          >&#9776;</span
+        >
         <div class="logo-div">
-            <a href="/index.html"><li class="logo"><img id="logo" src="Assets/logo_acm.svg" alt="ACM" height="100px" width="100px"></li></a>
+          <a href="/index.html"
+            ><li class="logo">
+              <img
+                id="logo"
+                src="Assets/logo_acm.svg"
+                alt="ACM"
+                height="100px"
+                width="100px"
+              /></li
+          ></a>
         </div>
-        <li class="right"><a class="contactrt" href="/index.html#contactSection">Register!</a></li>    
+        <li class="right">
+          <a class="contactrt" href="/index.html#contactSection">Register!</a>
+        </li>
         <li class="right"><a href="/bylaws.html">Chapter By-Laws</a></li>
         <li class="right"><a href="/events.html">Events</a></li>
-        <li class="right"><a class="active"  href="/team.html">Team</a></li>
+        <li class="right"><a class="active" href="/team.html">Team</a></li>
         <li class="right"><a href="/index.html">Home</a></li>
-    </ul>
-</div>
+      </ul>
+    </div>
 
-
-<div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" style="font-size:30px;cursor:pointer;float: right; padding:0;" onclick="closeNav()">&#9776;</a>
-    <div class="overlay-content">
+    <div id="myNav" class="overlay">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        style="font-size: 30px; cursor: pointer; float: right; padding: 0"
+        onclick="closeNav()"
+        >&#9776;</a
+      >
+      <div class="overlay-content">
         <a href="/index.html">Home</a>
-        <a class="active"  href="/team.html">Team</a>
+        <a class="active" href="/team.html">Team</a>
         <a href="/events.html">Events</a>
-        <a href="/bylaws.html">Chapter By-Laws</a><br><br>
+        <a href="/bylaws.html">Chapter By-Laws</a><br /><br />
         <a class="contact" href="/index.html#contactSection">Register!</a>
         <div class="social d-flex justify-content-center">
-            <a class="overlayIcon" href="https://www.linkedin.com/in/acm-student-chapter-vvce-411a831b1/"><i class="overlaySocial fab fa-linkedin-in"></i></a>
-            <a class="overlayIcon" href="https://www.facebook.com/vvceacm"><i class="overlaySocial fab fa-facebook"></i></a>
-            <a class="overlayIcon" href="https://www.instagram.com/vvce_acm/"><i class="overlaySocial fab fa-instagram"></i></a>
-            <a class="overlayIcon" href="mailto:acm@vvce.ac.in"><i class="overlaySocial far fa-envelope"></i></a>
+          <a
+            class="overlayIcon"
+            href="https://www.linkedin.com/in/acm-student-chapter-vvce-411a831b1/"
+            ><i class="overlaySocial fab fa-linkedin-in"></i
+          ></a>
+          <a class="overlayIcon" href="https://www.facebook.com/vvceacm"
+            ><i class="overlaySocial fab fa-facebook"></i
+          ></a>
+          <a class="overlayIcon" href="https://www.instagram.com/vvce_acm/"
+            ><i class="overlaySocial fab fa-instagram"></i
+          ></a>
+          <a class="overlayIcon" href="mailto:acm@vvce.ac.in"
+            ><i class="overlaySocial far fa-envelope"></i
+          ></a>
         </div>
-    </div>
-</div>
-
-
-<!-- -->
-
-<div class="body-block ">
-    <div class="container teamBlock top-block">
-        <h1>Our Team 2021 - 22</h1>
-        <hr />
-        <div class="row mobTop">
-          <div id="topTeam">
-            <div class="col-sm-4 col-md-4 mt-60">
-              <div class="team-member">
-                <div class="team-img">
-                  <img
-                    src="./Assets/Crop/Gururaj.png"
-                    alt="team member"
-                    class="img-responsive"
-                  />
-                </div>
-              </div>
-              <div class="team-title">
-                <h5>
-                  DR. Gururaj H L
-                  <a href="https://in.linkedin.com/in/gururaj-h-l-92513539"
-                    ><i class="team-icon fab fa-linkedin-in"></i
-                  ></a>
-                </h5>
-                <span>Faculty Sponsor</span>
-              </div>
-            </div>
-
-            
-            <div class="col-sm-4 col-md-4">
-                <div class="team-member mt-60">
-                  <div class="team-img">
-                    <img
-                      src="./Assets/Crop/2021/VKP.jpg"
-                      alt="team member"
-                      class="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div class="team-title">
-                  <h5>
-                    Prof. Vidyashree K P
-                    <!-- <a href="https://www.linkedin.com/in/nydile-gowda-0b37a7204"><i class="team-icon fab fa-linkedin-in"></i></a> -->
-                  </h5>
-                  <span>Web Sponsor</span>
-                </div>
-            </div>
-
-            <div class="col-sm-4 col-md-4">
-                <div class="team-member mt-60">
-                  <div class="team-img">
-                    <img
-                      src="./Assets/Crop/2021/saathvik.jpg"
-                      alt="team member"
-                      class="img-responsive"
-                    />
-                  </div>
-                </div>
-                <div class="team-title">
-                  <h5>
-                    Saathvik D M
-                    <a href="https://www.linkedin.com/in/saathvikdm/"
-                      ><i class="team-icon fab fa-linkedin-in"></i
-                    ></a>
-                  </h5>
-                  <span>Chair</span>
-                </div>
-            </div>            
-          </div>
-        </div>
-
-        <div class="row mt-60">
-            <div class="col-sm-3 col-md-3 col-6">
-                  <div class="team-member">
-                    <div class="team-img">
-                        <img
-                          src="./Assets/Crop/2021/nydile.jpg"
-                          alt="team member"
-                          class="img-responsive"
-                        />
-                      </div>
-                    </div>
-                    <div class="team-title">
-                      <h5>
-                        Nydile
-                        <a href="https://www.linkedin.com/in/nydile-gowda-0b37a7204"><i class="team-icon fab fa-linkedin-in"></i></a>
-                      </h5>
-                      <span>Vice-Chair</span>
-                    </div>
-              </div>
-              <div class="col-sm-3 col-md-3 col-6">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img
-                          src="Assets/Crop/2021/maanyatha.jpg"
-                          alt="team member"
-                          class="img-responsive"
-                        /></div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Maanyatha M <a href="https://www.linkedin.com/in/maanyatha-mahesh-255094216"
-                        ><i class="team-icon fab fa-linkedin-in"></i
-                      ></a>
-                    </h5>
-                      <span>Secretary</span>
-                  </div>
-              </div>  
-              <div class="col-sm-3 col-md-3 col-6">
-                <div class="team-member">
-                    <div class="team-img">
-                        <img
-                    src="Assets/Crop/2021/madhurya.jpg"
-                    alt="team member"
-                    class="img-responsive"
-                  /></div>
-                    
-                </div>
-                <div class="team-title">
-                    <h5>Madhurya M J <a href="https://www.linkedin.com/in/madhuryamj/"
-                        ><i class="team-icon fab fa-linkedin-in"></i
-                      ></a>
-                      </h5>
-                      <span>Treasurer</span>
-                </div>
-            </div>
-            <div class="col-sm-3 col-md-3 col-6">
-              <div class="team-member">
-                <div class="team-img">
-                    <img
-                    src="Assets/Crop/2021/suhas.jpg"
-                    alt="team member"
-                    class="img-responsive"
-                  /></div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Suhas G  <a href="https://www.linkedin.com/in/suhas-g-4a5662219"><i class="team-icon fab fa-linkedin-in"></i></a>
-                      </h5>
-                      <span>Web Master</span>
-                  </div>
-              </div>
-            </div>
-    </div>
-  </div>
-
-<div class="body-block ">
-  <div class="container teamBlock">
-      <h1>Our Team 2020 - 2021</h1><hr>
-      <div class="row mobTop" id="topTeam">
-        <div class="col-sm-4 col-md-4 col-12 mt-60">
-          <div class="team-member">
-              <div class="team-img">
-                  <img src="./Assets/Crop/Gururaj.png" alt="team member" class="img-responsive">
-              </div>
-              
-          </div>
-          <div class="team-title">
-              <h5>DR. Gururaj H L  <a href="https://in.linkedin.com/in/gururaj-h-l-92513539"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-              <span>Faculty Sponsor</span>
-          </div>
       </div>
-        <div class="col-sm-4 col-md-4 mobdisplayfalse">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/Neha.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Neha R  <a href="https://www.linkedin.com/in/neha-r-8288b6173"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-6 mobdisplay" id="teamTwo">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/Neha.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Neha R  <a href="https://www.linkedin.com/in/neha-r-8288b6173"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-md-4 col-6" id="teamTwo">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/Reena.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Reena Reddy  </h5>
-                <span>Vice-Chair</span>
-            </div>
-        </div>
     </div>
-      <div class="row mt-60">
-        <div class="col-sm-3 col-md-3 col-6">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="Assets/Crop/SurajG.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Suraj G  <a href="https://www.linkedin.com/in/suraj-g-5863b0113"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                  <span>Secretary</span>
-              </div>
-          </div>
-          <div class="col-sm-3 col-md-3 col-6">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="Assets/Crop/Pramod.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Sathya Pramod  </h5>
-                  <span>Treasurer</span>
-              </div>
-          </div>  
-          <div class="col-sm-3 col-md-3 col-6">
-            <div class="team-member">
-                <div class="team-img">
-                    <img src="Assets/Crop/Nithin.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Nithin B O  <a href="https://www.linkedin.com/in/nithin-b-o-1b601816b/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Web Master</span>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3 col-6">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="Assets/Crop/Saathvik.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Saathvik D M  <a href="https://www.linkedin.com/in/saathvikdm/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                  <span>Web Master</span>
-              </div>
-          </div>
-        </div>
-      <div class="row tCenter" id="endTeam">
-            <div class="col-sm-4 col-md-4 col-4">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img src="Assets/Crop/Vishal.png" alt="team member" class="img-responsive">
-                      </div> 
-                  </div>
-                  <div class="team-title">
-                      <h5>Vishal B  <a href="https://www.linkedin.com/in/vishal-b-8158871a1/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                      <span>Event Co-Ordinator</span>
-                  </div>
-              </div>
-              <div class="col-sm-4 col-md-4 col-4">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img src="Assets/Crop/Sharmila.png" alt="team member" class="img-responsive">
-                      </div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Sharmila  </h5>
-                      <span>Event Co-Ordinator</span>
-                  </div>
-              </div>
-              <div class="col-sm-4 col-md-4 col-4">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img src="Assets/Crop/Sri.png" alt="team member" class="img-responsive">
-                      </div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Shrivatsa G  </h5>
-                      <span>Event Co-Ordinator</span>
-                  </div>
-              </div>
-      </div>
-  </div>
-</div>
+    <!-- -->
 
-<div class="body-block ">
-  <div class="container teamBlock">
-      <h1>Our Team 2019 - 2020</h1><hr>
-      <div class="row mobTop" id="endTeam">
-        <div class="col-sm-4 col-md-4 col-12 mt-60">
-          <div class="team-member">
-              <div class="team-img">
-                  <img src="./Assets/Crop/Gururaj.png" alt="team member" class="img-responsive">
-              </div>
-              
+    <div class="body-block" id="team-container"></div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="footer-tile">
+              <img
+                class="footer-logo center"
+                src="Assets/vvce-logo.png"
+                alt="vvce_logo"
+              />
+            </div>
           </div>
-          <div class="team-title">
-              <h5>DR. Gururaj H L  <a href="https://in.linkedin.com/in/gururaj-h-l-92513539"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-              <span>Faculty Sponsor</span>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="footer-tile center"></div>
           </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="social d-flex justify-content-center">
+              <a
+                class="mx-2"
+                href="https://www.linkedin.com/in/acm-student-chapter-vvce-411a831b1/"
+                ><i class="icon fab fa-linkedin-in"></i
+              ></a>
+              <a class="mx-2" href="https://www.facebook.com/vvceacm"
+                ><i class="icon fab fa-facebook"></i
+              ></a>
+              <a class="mx-2" href="https://www.instagram.com/vvce_acm/"
+                ><i class="icon fab fa-instagram"></i
+              ></a>
+              <a class="mx-2" href="mailto:acm@vvce.ac.in"
+                ><i class="icon far fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
-        <div class="col-sm-4 col-md-4 mobdisplayfalse">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2019/Manoj.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Manoj Athreya  <a href="https://www.linkedin.com/in/manojathreyaa"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
+      <div class="endblock">
+        <div class="container">
+          <p style="text-align: left">©VVCE ACM Student Chapter, Mysuru</p>
         </div>
-        
-        <div class="col-sm-4 col-md-4 col-6 mobdisplay">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2019/Manoj.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Manoj Athreya A  <a href="https://www.linkedin.com/in/manojathreyaa"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-md-4 col-6">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/Neha.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Neha R  <a href="https://www.linkedin.com/in/neha-r-8288b6173"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Vice-Chair</span>
-            </div>
-        </div>
+      </div>
     </div>
-      <div class="row mt-60" id="endTeam">
-        <div class="col-sm-4 col-md-4 col-4">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="Assets/Crop/Reena.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Reena Reddy  </h5>
-                  <span>Secretary</span>
-              </div>
-          </div>
-          <div class="col-sm-4 col-md-4 col-4">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="./Assets/Crop/2019/Ashwin.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Ashwin A Kumar  <a href="https://www.linkedin.com/in/ashwin-a-k/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                  <span>Treasurer</span>
-              </div>
-          </div>  
-          <div class="col-sm-4 col-md-4 col-4">
-            <div class="team-member">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2019/Parikshith.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Parikshith H  <a href="https://www.linkedin.com/in/parikshithh"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Web Master</span>
-            </div>
-          </div>
-      </div>
-        
-      <div class="row" id="endTeam">
-        <div class="col-sm-4 col-md-4 col-4">
-          <div class="team-member">
-              <div class="team-img">
-                  <img src="Assets/Crop/2019/ismael.png" alt="team member" class="img-responsive">
-              </div>
-          </div>
-          <div class="team-title">
-              <h5>Ismael R Nadaf  </h5>
-              <span>Head Creative & Design</span>
-          </div>
-        </div>
-            <div class="col-sm-4 col-md-4 col-4">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img src="Assets/Crop/2019/Sinchana.png" alt="team member" class="img-responsive">
-                      </div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Sinchana C  <a href="https://www.linkedin.com/in/sinchana-chandan-40216015a"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                      <span>Event Convener</span>
-                  </div>
-              </div>
-              <div class="col-sm-4 col-md-4 col-4">
-                  <div class="team-member">
-                      <div class="team-img">
-                          <img src="./Assets/Crop/2019/Vijay.png" alt="team member" class="img-responsive">
-                      </div>
-                      
-                  </div>
-                  <div class="team-title">
-                      <h5>Vijay Kumar  </h5>
-                      <span>Publicity and Outreach Co-Ordinator</span>
-                  </div>
-              </div>
-      </div>
-  </div>
-</div>
-</div>
+    <!-- -->
 
-<div class="body-block ">
-  <div class="container teamBlock">
-      <h1>Our Team 2018 - 2019</h1><hr>
-      <div class="row mobTop" id="endTeam">
-        <div class="col-sm-4 col-md-4 col-12  mt-60">
-          <div class="team-member">
-              <div class="team-img">
-                  <img src="./Assets/Crop/Gururaj.png" alt="team member" class="img-responsive">
-              </div>
-              
-          </div>
-          <div class="team-title">
-              <h5>DR. Gururaj H L  <a href="https://in.linkedin.com/in/gururaj-h-l-92513539"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-              <span>Faculty Sponsor</span>
-          </div>
-      </div>
-        <div class="col-sm-4 col-md-4 col-6 mobdisplayfalse">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2018/keerthana.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Keerthana M C  <a href="https://www.linkedin.com/in/keerthana-m-c-509479148/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-md-4 col-6 mobdisplay">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2018/keerthana.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Keerthana M C  <a href="https://www.linkedin.com/in/keerthana-m-c-509479148/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Chair</span>
-            </div>
-        </div>
-        
-        <div class="col-sm-4 col-md-4 col-6">
-            <div class="team-member mt-60">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2018/shashank.png" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Shashank Athreya  <a href="https://www.linkedin.com/in/shashankathreya/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Vice-Chair</span>
-            </div>
-        </div>
-    </div>
-      <div class="row mt-60" id="endTeam" style="margin-bottom: 50px;">
-        <div class="col-sm-4 col-md-4 col-4">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="Assets/Crop/2018/ShreyasD.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Shreyas Dixit  <a href="https://www.linkedin.com/in/shreyas-dixit/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                  <span>Secretary</span>
-              </div>
-          </div>
-          <div class="col-sm-4 col-md-4 col-4">
-              <div class="team-member">
-                  <div class="team-img">
-                      <img src="./Assets/Crop/2018/Madhurish.png" alt="team member" class="img-responsive">
-                  </div>
-                  
-              </div>
-              <div class="team-title">
-                  <h5>Madhurish Katta  <a href="https://www.linkedin.com/in/madhurish/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                  <span>Treasurer</span>
-              </div>
-          </div>  
-          <div class="col-sm-4 col-md-4 col-4">
-            <div class="team-member">
-                <div class="team-img">
-                    <img src="./Assets/Crop/2018/Shreyas.jpg" alt="team member" class="img-responsive">
-                </div>
-                
-            </div>
-            <div class="team-title">
-                <h5>Shreyas V  <a href="https://www.linkedin.com/in/shreyasvenkatesh06/"><i class="team-icon fab fa-linkedin-in"></i></a></h5>
-                <span>Web Master</span>
-            </div>
-        </div>
-  </div>
-</div>
-</div>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
 
-<!-- Footer Section -->
-<div class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-sm-12 col-12">
-				<div class="footer-tile">
-					<img class="footer-logo center" src="Assets/vvce-logo.png" alt="vvce_logo">
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-12 col-12">
-				<div class="footer-tile center">
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-12 col-12">
-				<div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://www.linkedin.com/in/acm-student-chapter-vvce-411a831b1/"><i class="icon fab fa-linkedin-in"></i></a>
-                    <a class="mx-2" href="https://www.facebook.com/vvceacm"><i class="icon fab fa-facebook"></i></a>
-                    <a class="mx-2" href="https://www.instagram.com/vvce_acm/"><i class="icon fab fa-instagram"></i></a>
-                    <a class="mx-2" href="mailto:acm@vvce.ac.in"><i class="icon far fa-envelope"></i></a>
-                </div>
-			</div>
-        </div>
-    </div>
-    <div class="endblock"><div class="container"><p style="text-align: left;">©VVCE ACM Student Chapter, Mysuru</p></div></div>
-</div>
-<!-- -->
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
 
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("topBtn");
 
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%"; 
-}
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
-<script>
-//Get the button
-var mybutton = document.getElementById("topBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src=".//fetchScript.js"></script>
-
-
-</body>
-</html>	
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./components/TeamMember.js" defer></script>
+  </body>
+</html>
