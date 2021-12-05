@@ -40,3 +40,25 @@ if (teamContainer) {
     })
     .join("");
 }
+
+const teamContainerHome = document.getElementById("team-container-home");
+
+if (teamContainerHome) {
+  teamContainerHome.innerHTML = teamData
+    .filter((item, idx) => idx < 1)
+    .map(({ year, team }, i) => {
+      return `
+        <div class="container teamBlock">
+          <h1>Our Team ${year}</h1>
+          <hr />
+          <div class="row justify-content-center">
+              ${team
+                .map((teamMember, i) => {
+                  return TeamMember(teamMember);
+                })
+                .join("")}
+          </div>
+        </div>`;
+    })
+    .join("");
+}
